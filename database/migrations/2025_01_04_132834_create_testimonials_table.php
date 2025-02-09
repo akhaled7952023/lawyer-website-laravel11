@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('job');
-            $table->string('image');
+            $table->string('image')->default('default.png');
             $table->text('feedback');
             $table->boolean('status')->default(1);
             $table->timestamps();

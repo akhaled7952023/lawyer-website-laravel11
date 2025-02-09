@@ -15,20 +15,24 @@ class SkillSeeder extends Seeder
     {
         Skill::create([
             'title' => [
-                'ar' => 'تطوير الويب',
-                'en' => 'Web Development',
+                'ar' => 'مهارات قانونية تصنع الفارق',
+                'en' => 'Legal skills make a difference',
             ],
-            'image' => 'uploads/general/web_development.jpg',
+            'image' => 'skills-img1.jpg',
             'skills' => [
-                ['name_ar' => 'لارافيل', 'name_en' => 'Laravel', 'percentage' => 95],
-                ['name_ar' => 'فيو', 'name_en' => 'Vue.js', 'percentage' => 90],
-                ['name_ar' => 'ريأكت', 'name_en' => 'React', 'percentage' => 85],
+                ['name_ar' => 'الدقة', 'name_en' => 'Precision', 'percentage' => 95],
+                ['name_ar' => 'المرافعة', 'name_en' => 'Advocacy', 'percentage' => 90],
+                ['name_ar' => 'التحليل', 'name_en' => 'Analysis', 'percentage' => 100],
             ],
             'counters' => [
-                ['name_ar' => 'عدد المشاريع', 'name_en' => 'Projects', 'value' => '+50'],
-                ['name_ar' => 'سنوات الخبرة', 'name_en' => 'Years of Experience', 'value' => '10'],
-                ['name_ar' => 'العملاء السعداء', 'name_en' => 'Happy Clients', 'value' => '+100'],
-            ],
+
+                    ['name_ar' => 'عدد القضايا', 'name_en' => 'Cases Number', 'value' => '+50'],
+                    ['name_ar' => 'سنوات الخبرة', 'name_en' => 'Experience Years', 'value' => '10'],
+                    ['name_ar' => 'عدد العملاء', 'name_en' => 'Clients Number', 'value' => '+100'],
+                    ['name_ar' => 'عدد الموظفين', 'name_en' => 'Employees Number', 'value' => '+50']
+                ]
+
+
         ]);
     }
 }

@@ -1,0 +1,102 @@
+.main-banner{
+    direction: rtl;
+}
+
+@media (min-width: 1024px) {
+    .header-box {
+        direction: rtl;
+    }
+}
+
+.features-list {
+    direction: rtl;
+}
+
+@media screen and (max-width: 991px) {
+    .main-navigation ul:not(.main-navigation ul ul) {
+        display: block;
+        text-align: right;
+    }
+}
+
+.aboutar {
+    flex-direction:row-reverse;
+}
+
+.about-us-content{
+    direction: rtl;
+
+}
+
+.site-footer{
+    direction: rtl;
+}
+.h4-title.footer-title:before{
+    right: 0;
+}
+
+.case-study-box-content{
+    direction: rtl;
+}
+.arrow-btn:hover {
+    transform: rotate(45deg);
+}
+
+.main-our-skills{
+    direction: rtl;
+}
+
+.experience-skill-bar-percent {
+    left: 0 !important;
+    right: auto !important;
+}
+
+.testimonials-title .h2-title{
+    font-size: 50px;
+}
+.main-special-team {
+direction: rtl;
+}
+.main-faq {
+    direction: rtl;
+}
+.main-counter{
+    direction: rtl;
+}
+.main-service-detail{
+    direction: rtl;
+}
+
+.sidebar .h4-title::before {
+    right: 0;
+}
+
+.breadcrumb-box {
+    direction: rtl;
+ }
+ .page-contact-us{
+    direction: rtl;
+ }
+
+ .page-team-list{
+    direction: rtl;
+    z-index: 0;
+ }
+
+ .main-team-detail{
+    direction: rtl;
+ }
+.page-blog-list {
+    direction: rtl;
+}
+
+.page-blog-detail{
+    direction: rtl;
+}
+.blog-date {
+    direction: ltr;
+}
+
+.h1-title {
+    font-size: 60px;
+}

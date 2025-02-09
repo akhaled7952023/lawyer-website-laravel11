@@ -13,13 +13,14 @@ return new class extends Migration
     {
         Schema::create('teams', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->unique();
+            $table->string('name');
+            $table->string('slug');
+            $table->boolean('status')->default(1);
             $table->string('position');
             $table->string('image');
             $table->string('experience');
-            $table->string('email');
             $table->integer('years');
-            $table->text('bio');
+            $table->longText('bio');
             $table->text('meta_description');
             $table->text('meta_keywords');
             $table->text('meta_title');

@@ -22,13 +22,13 @@ class CheckSettingProvider extends ServiceProvider
     {
         $getSetting = Setting::firstOr(function () {
             return Setting::create([
-                'main_email' => 'law@gmail.com',
-                'logo' => 'law.png',
+                'main_email' => 'akhaled795@gmail.com',
+                'logo' => 'f342f5eb-a453-48a4-94eb-a0af5bd3be5c1738598809.png',
                 'phone_mobile' => '0510105648',
 
                 'adress' => [
-                    'ar' => 'الرياض',
-                    'en' => 'Riyadh',
+                    'ar' => 'الرياض - حي الإزدهار',
+                    'en' => 'Riyadh - AlEzdihr',
                 ],
                 'about' => [
                     'ar' => 'وصف عن الموقع',

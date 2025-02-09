@@ -25,7 +25,7 @@ class ClientController extends Controller
 
         $this->clientService->addOrUpdate($request->clients);
 
-        return redirect()->back()->with('success', __('Clients updated successfully!'));
+        return redirect()->back()->with('success', __('dashboard.success_msg'));
 
     }
 

@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title')->unique();
             $table->string('slug')->unique();
             $table->string('image');
-            $table->text('description');
+            $table->longText('description');
             $table->boolean('status')->default(1);
             $table->text('meta_description');
             $table->text('meta_keywords');

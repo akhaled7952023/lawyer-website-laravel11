@@ -14,11 +14,10 @@ return new class extends Migration
         Schema::create('about_us', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->text('content');
+            $table->text('about_us');
+            $table->string('number');
             $table->string('image');
-            $table->text('meta_description');
-            $table->text('meta_keywords');
-            $table->text('meta_title');
+            $table->json('content');
             $table->timestamps();
         });
     }

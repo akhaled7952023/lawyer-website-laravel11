@@ -18,4 +18,11 @@ class Service extends Model
     {
         return $query->where('status', 1);
     }
+
+    public function articles()
+    {
+        return $this->hasMany(Article::class);
+    }
+
+
 }

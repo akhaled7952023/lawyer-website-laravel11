@@ -17,8 +17,9 @@ class Skill extends Model
     protected $casts = [
         'skills' => 'array',
         'counters' => 'array'
-
     ];
+
+
 
     // public function getSkillsAttribute($value)
     // {

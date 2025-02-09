@@ -23,11 +23,13 @@
 <script src="{{ asset('asset/dashboard') }}/js/scripts/editors/editor-summernote.js" type="text/javascript"></script>
 <script src="{{ asset('asset/dashboard') }}/js/scripts/extensions/dropzone.js" type="text/javascript"></script>
 <script src="{{ asset('asset/dashboard') }}/vendors/dropify/dropify.min.js"></script>
+<script src="{{ asset('asset/dashboard') }}/vendors/js/tables/datatable/datatables.min.js" type="text/javascript"></script>
+<script src="{{ asset('asset/dashboard') }}/js/scripts/tables/datatables/datatable-basic.js" type="text/javascript"></script>
+<script src="{{asset('asset/dashboard')}}/vendors/js/editors/ckeditor/ckeditor.js" type="text/javascript"></script>
+<script src="{{asset('asset/dashboard')}}/js/scripts/editors/editor-ckeditor.js" type="text/javascript"></script>
 
 
 <script>
-
-
     $(document).ready(function() {
         $('.dropify').dropify({
             messages: {

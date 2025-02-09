@@ -65,7 +65,7 @@
                                     <div class="row">
                                         @if (Config::get('app.locale') == 'ar')
                                             @foreach (config('permissions_ar') as $key => $value)
-                                                <div class="col-md-4">
+                                                <div class="col-md-3">
                                                     <input value="{{ $key }}" type="checkbox" name="permissions[]"
                                                         class="checkbox"  @checked(in_array($key, $role->permissions))>
                                                     <lable>{{ $value }}</lable>
@@ -73,7 +73,7 @@
                                             @endforeach
                                         @else
                                             @foreach (config('permissions_en') as $key => $value)
-                                                <div class="col-md-4">
+                                                <div class="col-md-3">
                                                     <input value="{{ $key }}" type="checkbox" name="permissions[]"
                                                         class="checkbox"  @checked(in_array($key, $role->permissions))>
                                                     <lable>{{ $value }}</lable>

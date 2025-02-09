@@ -136,8 +136,11 @@
 
 
                                                                 <div class="form-group col-sm-12 col-md-3 text-center">
-                                                                    <button type="button" style="margin-top: 25px" class="btn btn-danger" data-repeater-delete>
-                                                                        <i class="ft-x"></i> {{ __('dashboard.delete') }}
+
+                                                                    <button type="button" style="margin-top: 25px"
+                                                                    class="btn btn-danger" data-repeater-delete
+                                                                    data-confirm-message="{{ __('dashboard.confirm_delete') }}">
+                                                                    <i class="ft-x"></i> {{ __('dashboard.delete') }}
                                                                     </button>
                                                                 </div>
 
@@ -214,8 +217,10 @@
 
 
                                                             <div class="form-group col-sm-12 col-md-3 text-center">
-                                                                <button type="button" style="margin-top: 25px" class="btn btn-danger" data-repeater-delete>
-                                                                    <i class="ft-x"></i> {{ __('dashboard.delete') }}
+                                                                <button type="button" style="margin-top: 25px"
+                                                                class="btn btn-danger" data-repeater-delete
+                                                                data-confirm-message="{{ __('dashboard.confirm_delete') }}">
+                                                                <i class="ft-x"></i> {{ __('dashboard.delete') }}
                                                                 </button>
                                                             </div>
 

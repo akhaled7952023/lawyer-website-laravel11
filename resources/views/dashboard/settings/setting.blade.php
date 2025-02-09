@@ -167,9 +167,13 @@
                                                                 <input type="text" class="form-control" name="social_links[{{ $index }}][icon]" value="{{ $social['icon'] ?? '' }}" placeholder="{{ __('dashboard.enter_social_icon') }}">
                                                             </div>
                                                             <div class="form-group col-sm-12 col-md-2 text-center">
-                                                                <button type="button" style="margin-top: 25px" class="btn btn-danger" data-repeater-delete>
-                                                                    <i class="ft-x"></i> {{ __('dashboard.delete_social') }}
-                                                                </button>
+
+
+                                                                <button type="button" style="margin-top: 25px"
+                                                                class="btn btn-danger" data-repeater-delete
+                                                                data-confirm-message="{{ __('dashboard.confirm_delete') }}">
+                                                                <i class="ft-x"></i> {{ __('dashboard.delete_social') }}
+                                                            </button>
                                                             </div>
                                                         </div>
                                                         <hr>
@@ -204,6 +208,7 @@
             </div>
         </div>
     </div>
+</div>
 @endsection
 
 @section('scripts')
